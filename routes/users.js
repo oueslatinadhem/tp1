@@ -12,7 +12,7 @@ router.get('/:id', (req, res) => {
 });
 /* GET users listing. */
 router.post('/', (req, res) => {
-  res.status('r').json({ message: 'User id created successfully' });
+  res.status('201').json({ message: 'User id created successfully' });
 });
 /* GET users listing. */
 router.put('/:id', (req, res) => {
